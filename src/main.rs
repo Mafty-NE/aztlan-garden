@@ -174,7 +174,7 @@ fn setup_ui(mut commands: Commands, asset_server: Res<AssetServer>) {
                 parent.spawn(TextBundle::from_section(
                     format!("{:?}", tile_type),
                     TextStyle {
-                        font: asset_server.load("fonts/FiraSans-Bold.ttf"),
+                        font: asset_server.load("fonts/Fira_Sans/FiraSans-Bold.ttf"),
                         font_size: 16.0,
                         color: Color::BLACK,
                     },
